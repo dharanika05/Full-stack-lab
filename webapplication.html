@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -785,6 +785,12 @@ footer p {
 
 
 <body>
+<nav style="background:#172554;padding:16px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;">
+<a style="color:white;text-decoration:none;font-weight:bold;" href="index.html">Home</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="food.html">Food App</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="webapplication.html">Web Application</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="portfolio.html">Portfolio</a>
+</nav>
 
 
 <!-- ================= HEADER ================= -->
@@ -846,7 +852,7 @@ footer p {
         <p class="hero-description">
 
             Discover amazing products, services and
-            opportunities around you — all in one
+            opportunities around you â€” all in one
             simple marketplace.
 
         </p>
@@ -856,7 +862,7 @@ footer p {
             class="explore-btn"
             onclick="scrollToProducts()">
 
-            Explore Listings →
+            Explore Listings â†’
 
         </button>
 
@@ -868,7 +874,7 @@ footer p {
 
         <div class="floating-card card-one">
 
-            🛍️
+            ðŸ›ï¸
 
             <div>
 
@@ -883,14 +889,14 @@ footer p {
 
         <div class="main-circle">
 
-            🔎
+            ðŸ”Ž
 
         </div>
 
 
         <div class="floating-card card-two">
 
-            ⭐
+            â­
 
             <div>
 
@@ -914,7 +920,7 @@ footer p {
 
     <div class="search-box">
 
-        🔍
+        ðŸ”
 
         <input
             type="text"
@@ -980,7 +986,7 @@ footer p {
             onclick="selectCategory('Electronics')">
 
             <div class="category-icon">
-                💻
+                ðŸ’»
             </div>
 
             <p>Electronics</p>
@@ -993,7 +999,7 @@ footer p {
             onclick="selectCategory('Vehicles')">
 
             <div class="category-icon">
-                🚗
+                ðŸš—
             </div>
 
             <p>Vehicles</p>
@@ -1006,7 +1012,7 @@ footer p {
             onclick="selectCategory('Furniture')">
 
             <div class="category-icon">
-                🛋️
+                ðŸ›‹ï¸
             </div>
 
             <p>Furniture</p>
@@ -1019,7 +1025,7 @@ footer p {
             onclick="selectCategory('Books')">
 
             <div class="category-icon">
-                📚
+                ðŸ“š
             </div>
 
             <p>Books</p>
@@ -1032,7 +1038,7 @@ footer p {
             onclick="selectCategory('Fashion')">
 
             <div class="category-icon">
-                👕
+                ðŸ‘•
             </div>
 
             <p>Fashion</p>
@@ -1045,7 +1051,7 @@ footer p {
             onclick="selectCategory('Others')">
 
             <div class="category-icon">
-                ✨
+                âœ¨
             </div>
 
             <p>Others</p>
@@ -1129,7 +1135,7 @@ footer p {
             class="sell-main-btn"
             onclick="openSellForm()">
 
-            Start Selling →
+            Start Selling â†’
 
         </button>
 
@@ -1137,7 +1143,7 @@ footer p {
 
 
     <div class="sell-icon">
-        📦
+        ðŸ“¦
     </div>
 
 </section>
@@ -1191,7 +1197,7 @@ footer p {
 
 
     <p>
-        © 2026 ClassiFind. All rights reserved.
+        Â© 2026 ClassiFind. All rights reserved.
     </p>
 
 </footer>
@@ -1212,7 +1218,7 @@ footer p {
             class="close-btn"
             onclick="closeSellForm()">
 
-            ×
+            Ã—
 
         </button>
 
@@ -1243,7 +1249,7 @@ footer p {
 
 
             <label>
-                Price (₹)
+                Price (â‚¹)
             </label>
 
             <input
@@ -1348,7 +1354,7 @@ let products = [
         location: "Coimbatore",
         description:
         "Premium wireless headphones with clear sound.",
-        icon: "🎧"
+        icon: "ðŸŽ§"
     },
 
 
@@ -1359,7 +1365,7 @@ let products = [
         location: "Chennai",
         description:
         "Well-maintained bicycle suitable for daily rides.",
-        icon: "🚲"
+        icon: "ðŸš²"
     },
 
 
@@ -1370,7 +1376,7 @@ let products = [
         location: "Madurai",
         description:
         "Wooden study table in excellent condition.",
-        icon: "🪑"
+        icon: "ðŸª‘"
     },
 
 
@@ -1381,7 +1387,7 @@ let products = [
         location: "Coimbatore",
         description:
         "Collection of programming and development books.",
-        icon: "📚"
+        icon: "ðŸ“š"
     },
 
 
@@ -1392,7 +1398,7 @@ let products = [
         location: "Bangalore",
         description:
         "Stylish casual jacket, lightly used.",
-        icon: "🧥"
+        icon: "ðŸ§¥"
     },
 
 
@@ -1403,7 +1409,7 @@ let products = [
         location: "Salem",
         description:
         "Smart watch with fitness tracking features.",
-        icon: "⌚"
+        icon: "âŒš"
     }
 
 ];
@@ -1438,7 +1444,7 @@ function displayProducts(list) {
             ">
 
                 <h2>
-                    🔍 No listings found
+                    ðŸ” No listings found
                 </h2>
 
                 <p>
@@ -1497,14 +1503,14 @@ function displayProducts(list) {
 
                 <p class="location">
 
-                    📍 ${product.location}
+                    ðŸ“ ${product.location}
 
                 </p>
 
 
                 <div class="price">
 
-                    ₹${product.price.toLocaleString("en-IN")}
+                    â‚¹${product.price.toLocaleString("en-IN")}
 
                 </div>
 
@@ -1705,7 +1711,7 @@ document.getElementById("sellForm")
 
 
             alert(
-                "🎉 Your listing has been published successfully!"
+                "ðŸŽ‰ Your listing has been published successfully!"
             );
 
         }
@@ -1719,22 +1725,22 @@ function getCategoryIcon(category) {
 
     const icons = {
 
-        Electronics: "💻",
+        Electronics: "ðŸ’»",
 
-        Vehicles: "🚗",
+        Vehicles: "ðŸš—",
 
-        Furniture: "🛋️",
+        Furniture: "ðŸ›‹ï¸",
 
-        Books: "📚",
+        Books: "ðŸ“š",
 
-        Fashion: "👕",
+        Fashion: "ðŸ‘•",
 
-        Others: "✨"
+        Others: "âœ¨"
 
     };
 
 
-    return icons[category] || "📦";
+    return icons[category] || "ðŸ“¦";
 
 }
 
@@ -1746,7 +1752,7 @@ function buyProduct(productName) {
 
     alert(
 
-        "🛒 Great choice!\n\n" +
+        "ðŸ›’ Great choice!\n\n" +
 
         productName +
 

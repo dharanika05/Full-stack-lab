@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -1139,6 +1139,12 @@ footer p {
 
 
 <body>
+<nav style="background:#172554;padding:16px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;">
+<a style="color:white;text-decoration:none;font-weight:bold;" href="index.html">Home</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="food.html">Food App</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="webapplication.html">Web Application</a>
+<a style="color:white;text-decoration:none;font-weight:bold;" href="portfolio.html">Portfolio</a>
+</nav>
 
 
 <!-- =====================================================
@@ -1150,7 +1156,7 @@ footer p {
     <div class="logo">
 
         <div class="logo-icon">
-            🍴
+            ðŸ´
         </div>
 
         BiteNest
@@ -1179,7 +1185,7 @@ footer p {
         class="cart-button"
         onclick="openCart()">
 
-        🛒 Cart
+        ðŸ›’ Cart
         <span id="cartCount">0</span>
 
     </button>
@@ -1225,7 +1231,7 @@ footer p {
             class="order-btn"
             onclick="goToMenu()">
 
-            Order Now →
+            Order Now â†’
             
         </button>
 
@@ -1235,19 +1241,19 @@ footer p {
 
     <div class="hero-food">
 
-        🍔
+        ðŸ”
 
 
         <div class="hero-badge badge-one">
 
-            ⭐ 4.8 Rating
+            â­ 4.8 Rating
 
         </div>
 
 
         <div class="hero-badge badge-two">
 
-            🚴 Fast Delivery
+            ðŸš´ Fast Delivery
 
         </div>
 
@@ -1266,7 +1272,7 @@ footer p {
 
     <div class="search-box">
 
-        🔍
+        ðŸ”
 
         <input
             type="text"
@@ -1336,7 +1342,7 @@ footer p {
             onclick="selectCategory('Burgers')">
 
             <div class="category-icon">
-                🍔
+                ðŸ”
             </div>
 
             <p>
@@ -1351,7 +1357,7 @@ footer p {
             onclick="selectCategory('Pizza')">
 
             <div class="category-icon">
-                🍕
+                ðŸ•
             </div>
 
             <p>
@@ -1366,7 +1372,7 @@ footer p {
             onclick="selectCategory('Indian')">
 
             <div class="category-icon">
-                🍛
+                ðŸ›
             </div>
 
             <p>
@@ -1381,7 +1387,7 @@ footer p {
             onclick="selectCategory('South Indian')">
 
             <div class="category-icon">
-                🥞
+                ðŸ¥ž
             </div>
 
             <p>
@@ -1396,7 +1402,7 @@ footer p {
             onclick="selectCategory('Desserts')">
 
             <div class="category-icon">
-                🍰
+                ðŸ°
             </div>
 
             <p>
@@ -1411,7 +1417,7 @@ footer p {
             onclick="selectCategory('Drinks')">
 
             <div class="category-icon">
-                🥤
+                ðŸ¥¤
             </div>
 
             <p>
@@ -1509,7 +1515,7 @@ footer p {
 
     <div class="offer-badge">
 
-        🎁
+        ðŸŽ
 
     </div>
 
@@ -1542,7 +1548,7 @@ footer p {
     <div class="cart-header">
 
         <h2>
-            🛒 Your Cart
+            ðŸ›’ Your Cart
         </h2>
 
 
@@ -1550,7 +1556,7 @@ footer p {
             class="close-cart"
             onclick="closeCart()">
 
-            ×
+            Ã—
 
         </button>
 
@@ -1587,7 +1593,7 @@ footer p {
             </span>
 
             <span>
-                ₹40
+                â‚¹40
             </span>
 
         </div>
@@ -1600,7 +1606,7 @@ footer p {
             </span>
 
             <span id="totalAmount">
-                ₹0
+                â‚¹0
             </span>
 
         </div>
@@ -1610,7 +1616,7 @@ footer p {
             class="checkout-btn"
             onclick="checkout()">
 
-            Place Order →
+            Place Order â†’
 
         </button>
 
@@ -1629,7 +1635,7 @@ footer p {
     <div>
 
         <strong>
-            🍴 BiteNest
+            ðŸ´ BiteNest
         </strong>
 
         <p>
@@ -1640,7 +1646,7 @@ footer p {
 
 
     <p>
-        © 2026 BiteNest. All rights reserved.
+        Â© 2026 BiteNest. All rights reserved.
     </p>
 
 </footer>
@@ -1666,7 +1672,7 @@ let foods = [
         price: 159,
         description:
         "Juicy chicken patty with fresh vegetables and special sauce.",
-        icon: "🍔"
+        icon: "ðŸ”"
     },
 
 
@@ -1676,7 +1682,7 @@ let foods = [
         price: 249,
         description:
         "Classic pizza topped with mozzarella, tomato and basil.",
-        icon: "🍕"
+        icon: "ðŸ•"
     },
 
 
@@ -1686,7 +1692,7 @@ let foods = [
         price: 220,
         description:
         "Aromatic basmati rice cooked with tender chicken and spices.",
-        icon: "🍛"
+        icon: "ðŸ›"
     },
 
 
@@ -1696,7 +1702,7 @@ let foods = [
         price: 90,
         description:
         "Crispy dosa served with delicious potato masala and chutney.",
-        icon: "🥞"
+        icon: "ðŸ¥ž"
     },
 
 
@@ -1706,7 +1712,7 @@ let foods = [
         price: 190,
         description:
         "Soft paneer cooked in rich and creamy tomato gravy.",
-        icon: "🍲"
+        icon: "ðŸ²"
     },
 
 
@@ -1716,7 +1722,7 @@ let foods = [
         price: 130,
         description:
         "Soft chocolate cake layered with creamy chocolate frosting.",
-        icon: "🍰"
+        icon: "ðŸ°"
     },
 
 
@@ -1726,7 +1732,7 @@ let foods = [
         price: 99,
         description:
         "Crispy golden fries seasoned with our special seasoning.",
-        icon: "🍟"
+        icon: "ðŸŸ"
     },
 
 
@@ -1736,7 +1742,7 @@ let foods = [
         price: 120,
         description:
         "Creamy chilled coffee perfect for a refreshing break.",
-        icon: "🥤"
+        icon: "ðŸ¥¤"
     },
 
 
@@ -1746,7 +1752,7 @@ let foods = [
         price: 219,
         description:
         "Fresh vegetables, cheese and herbs on a crispy pizza base.",
-        icon: "🍕"
+        icon: "ðŸ•"
     }
 
 ];
@@ -1792,7 +1798,7 @@ function displayFood(list) {
             ">
 
                 <h2>
-                    😕 Food not found
+                    ðŸ˜• Food not found
                 </h2>
 
                 <p>
@@ -1854,7 +1860,7 @@ function displayFood(list) {
 
                     <div class="food-price">
 
-                        ₹${food.price}
+                        â‚¹${food.price}
 
                     </div>
 
@@ -1922,7 +1928,7 @@ function addToCart(index) {
 
 
     alert(
-        "✅ " +
+        "âœ… " +
         food.name +
         " added to cart!"
     );
@@ -1968,7 +1974,7 @@ function updateCart() {
                     font-size:60px;
                     margin-bottom:15px;
                 ">
-                    🛒
+                    ðŸ›’
                 </div>
 
                 <h3>
@@ -2021,7 +2027,7 @@ function updateCart() {
 
 
                 <p>
-                    ₹${item.price}
+                    â‚¹${item.price}
                 </p>
 
 
@@ -2030,7 +2036,7 @@ function updateCart() {
                     <button
                         onclick="decreaseQuantity(${index})">
 
-                        −
+                        âˆ’
 
                     </button>
 
@@ -2075,7 +2081,7 @@ function updateCart() {
 
     document.getElementById("totalAmount")
         .textContent =
-        "₹" +
+        "â‚¹" +
         finalAmount.toLocaleString("en-IN");
 
 }
@@ -2274,7 +2280,7 @@ function checkout() {
     if (cart.length === 0) {
 
         alert(
-            "🛒 Your cart is empty!\n\nPlease add food before placing an order."
+            "ðŸ›’ Your cart is empty!\n\nPlease add food before placing an order."
         );
 
         return;
@@ -2299,14 +2305,14 @@ function checkout() {
 
     alert(
 
-        "🎉 Order placed successfully!\n\n" +
+        "ðŸŽ‰ Order placed successfully!\n\n" +
 
-        "Total Amount: ₹" +
+        "Total Amount: â‚¹" +
         total.toLocaleString("en-IN") +
 
         "\n\n" +
 
-        "Thank you for ordering from BiteNest! ❤️"
+        "Thank you for ordering from BiteNest! â¤ï¸"
 
     );
 
